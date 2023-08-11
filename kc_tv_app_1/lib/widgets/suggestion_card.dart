@@ -11,7 +11,7 @@ class SuggestionCard extends StatelessWidget {
         ClipRRect(
           borderRadius: BorderRadius.circular(40),
           child: const Image(
-            image: AssetImage('assets/image/Morat1.jpg'),
+            image: AssetImage('assets/image/Morat2.jpg'),
 
         ),
         ),

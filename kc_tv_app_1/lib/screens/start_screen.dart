@@ -14,7 +14,7 @@ class _StartScreenState extends State<StartScreen> {
     return Scaffold(
       appBar: AppBar(
         leading: Padding(
-          padding: const EdgeInsets.all(2.0),
+          padding: const EdgeInsets.all(1.0),
           child: Image.asset('assets/image/Morat1.jpg'),
         ),
         title: Text(
@@ -38,17 +38,17 @@ class _StartScreenState extends State<StartScreen> {
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.sports_soccer),
-            label: 'Juegos completos',
+            label: 'Inicio',
             backgroundColor: Colors.red,
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.sports_soccer),
-            label: 'Cambio al Super Bowl LVII',
+            label: 'Lanzamientos nuevos',
             backgroundColor: Colors.red,
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.sports_soccer),
-            label: 'The Franchise',
+            label: 'Listas de reprodución',
             backgroundColor: Colors.red,
           ),
         ],
