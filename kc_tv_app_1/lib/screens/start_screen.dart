@@ -13,6 +13,10 @@ class _StartScreenState extends State<StartScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: Padding(
+          padding: const EdgeInsets.all(2.0),
+          child: Image.asset('assets/image/Morat1.jpg'),
+        ),
         title: Text(
           'KC Tv',
           style: Theme.of(context).textTheme.headlineLarge,
@@ -38,12 +42,12 @@ class _StartScreenState extends State<StartScreen> {
             backgroundColor: Colors.red,
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.sports_football),
+            icon: Icon(Icons.sports_soccer),
             label: 'Cambio al Super Bowl LVII',
             backgroundColor: Colors.red,
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.sports_football),
+            icon: Icon(Icons.sports_soccer),
             label: 'The Franchise',
             backgroundColor: Colors.red,
           ),
